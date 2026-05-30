@@ -28,14 +28,13 @@ Python · XGBoost · SHAP · scikit-learn · SMOTE · Pandas · Seaborn · Power
 3. LOAN_DURATION_YEARS (durée du prêt — créé)
 4. CODE_GENDER_M (genre masculin)
 5. CREDIT_GOODS_RATIO (ratio crédit/valeur bien — créé)
-
 ## Dashboard Power BI
 4 pages interactives construites sur les vrais résultats du modèle XGBoost :
 
 ![Vue Executive](images/vue_executive.png)
 ![Profils de Risque](images/profils_risque.png)
-![Performance Modèles](images/performance_modeles.png)
-![SHAP Feature Importance](images/shap_importance.png)
+![Performance Modèles](images/performance_modele.png)
+![SHAP Feature Importance](images/top_10_SHAP.png) 
 
 Modélisation des données : Star Schema
 - `Fact_Clients` — 61 503 clients avec scores de risque réels
