@@ -31,15 +31,41 @@ Python · XGBoost · SHAP · scikit-learn · SMOTE · Pandas · Seaborn · Power
 
 ## Dashboard Power BI
 4 pages interactives construites sur les vrais résultats du modèle XGBoost :
-- Vue Executive — KPIs globaux + distribution du risque
-- Profils de Risque — analyse par âge et genre
-- Performance Modèles — comparaison AUC/Recall/F1
-- SHAP Feature Importance — top 10 drivers du défaut
+
+![Vue Executive](images/vue_executive.png)
+![Profils de Risque](images/profils_risque.png)
+![Performance Modèles](images/performance_modeles.png)
+![SHAP Feature Importance](images/shap_importance.png)
 
 Modélisation des données : Star Schema
-- `Fact_Clients` — 61 503 clients avec scores de risque
+- `Fact_Clients` — 61 503 clients avec scores de risque réels
 - `Dim_Modeles` — comparaison des 3 modèles
 - `Dim_SHAP` — top 10 features SHAP
+
+📊 [Télécharger le dashboard Power BI](Credit_Risk_Dashboard_Lynda.pbix)
+
+## Notebook Kaggle
+[Voir le notebook en ligne](https://www.kaggle.com/code/tawhida-lab/credit-risk-prediction-lynda)
+
+## Comment reproduire
+1. Accepter les règles sur kaggle.com/c/home-credit-default-risk
+2. Ouvrir le notebook Kaggle
+3. Run All
+4. Télécharger les CSV depuis Output
+5. Ouvrir `Credit_Risk_Dashboard_Lynda.pbix`
+
+## Fichiers du repo
+```
+credit-risk-prediction/
+├── credit-risk-prediction.ipynb
+├── Credit_Risk_Dashboard_Lynda.pbix
+├── images/
+│   ├── vue_executive.png
+│   ├── profils_risque.png
+│   ├── performance_modeles.png
+│   └── shap_importance.png
+└── README.md
+```
 
 ## Dataset
 [Home Credit Default Risk — Kaggle](https://www.kaggle.com/c/home-credit-default-risk)
