@@ -4,6 +4,9 @@
 Prédiction de la probabilité de défaut de paiement  
 307 511 clients · 122 variables · 8 tables · Kaggle Competition
 
+## 🚀 Application Live
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://https://credit-risk-prediction-crp.streamlit.app)
+
 ## Stack technique
 Python · XGBoost · SHAP · scikit-learn · SMOTE · Pandas · Seaborn · Power BI
 
